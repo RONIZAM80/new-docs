@@ -2272,10 +2272,10 @@
   resolved "https://registry.yarnpkg.com/@types/unist/-/unist-2.0.3.tgz#9c088679876f374eb5983f150d4787aa6fb32d7e"
   integrity sha512-FvUupuM3rlRsRtCN+fDudtmytGO6iHJuuRKS1Ss0pG5z8oX0diNEw94UEL7hgDbpN94rgaK5R7sWm6RrSkZuAQ==
 
-"@types/urijs@^1.19.2":
-  version "1.19.9"
-  resolved "https://registry.yarnpkg.com/@types/urijs/-/urijs-1.19.9.tgz#cedccc8e69677080cc8bb2e9ec50c6dd6093429e"
-  integrity sha512-/tiJyrc0GPcsReHzgC0SXwOmoPjLqYe01W7dLYB0yasQXMbcRee+ZIk+g8MIQhoBS8fPoBQO3Y93+aeBrI93Ug==
+"@types/urijs@^1.19.6":
+  version "1.19.16"
+  resolved "https://registry.yarnpkg.com/@types/urijs/-/urijs-1.19.16.tgz#156658c47438fa867db5dce4d2949fe1ca0878e2"
+  integrity sha512-WgxqcUSEYijGnNWHSln/uqay+AywS3mEhLC+d2PwLsru2fLeMblvxP67Y/SCfB2Pxe+dX/zbIoNNzXY+VKOtNA==
 
 "@types/vfile-message@*":
   version "2.0.0"
@@ -3026,6 +3026,13 @@ axe-core@^3.5.4:
   version "3.5.5"
   resolved "https://registry.yarnpkg.com/axe-core/-/axe-core-3.5.5.tgz#84315073b53fa3c0c51676c588d59da09a192227"
   integrity sha512-5P0QZ6J5xGikH780pghEdbEKijCTrruK9KxtPZCFWUpef0f6GipO+xEZ5GKCb020mmqgbiNO6TcA55CriL784Q==
+
+axios@0.21.1:
+  version "0.21.1"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.1.tgz#22563481962f4d6bde9a76d516ef0e5d3c09b2b8"
+  integrity sha512-dKQiRHxGD9PPRIUNIWvZhPTPpl1rf/OxTYKsqKUDjBwYylTvV7SjSHJb9ratfyzM6wCdLCOYLzs73qpg5c4iGA==
+  dependencies:
+    follow-redirects "^1.10.0"
 
 axios@^0.19.0, axios@^0.19.2:
   version "0.19.2"
@@ -7143,6 +7150,11 @@ follow-redirects@^1.0.0:
   version "1.12.1"
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.12.1.tgz#de54a6205311b93d60398ebc01cf7015682312b6"
   integrity sha512-tmRv0AVuR7ZyouUHLeNSiO6pqulF7dYa3s19c6t+wz9LD69/uSzdMxJ2S91nTI9U3rt/IldxpzMOFejp6f0hjg==
+
+follow-redirects@^1.10.0:
+  version "1.14.1"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.1.tgz#d9114ded0a1cfdd334e164e6662ad02bfd91ff43"
+  integrity sha512-HWqDgT7ZEkqRzBvc2s64vSZ/hfOceEol3ac/7tKwzuvEyWx3/4UegXh5oBOIotkGsObyk3xznnSRVADBgWSQVg==
 
 for-in@^1.0.2:
   version "1.0.2"
@@ -15339,10 +15351,10 @@ stealthy-require@^1.1.1:
   resolved "https://registry.yarnpkg.com/stealthy-require/-/stealthy-require-1.1.1.tgz#35b09875b4ff49f26a777e509b3090a3226bf24b"
   integrity sha1-NbCYdbT/SfJqd35QmzCQoyJr8ks=
 
-stellar-base@^2.1.2:
-  version "2.1.9"
-  resolved "https://registry.yarnpkg.com/stellar-base/-/stellar-base-2.1.9.tgz#2249a84e317a1cacdf7554642f13340f0a9387f2"
-  integrity sha512-W8oURWgIBn+JZZwo+ClYNdLQ6NOR0i7Lf6U8rljicU3rNrcVKgLp+0A/lOLIxyDA6W0mbVR/1zEgR2v19kTgkw==
+stellar-base@^5.2.1:
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/stellar-base/-/stellar-base-5.3.0.tgz#15e8d9f3767a62bda14d55f0c4347d27987ae1f6"
+  integrity sha512-8LCOX/D/Zp5DBhcTwXQSh9v25sHivkCJc+FSPncqhvMYgvQQg8w+2kj9hCFg1SAxkLJOjSpfzObrUaTl+CFFjw==
   dependencies:
     base32.js "^0.1.0"
     bignumber.js "^4.0.0"
@@ -15354,23 +15366,23 @@ stellar-base@^2.1.2:
   optionalDependencies:
     sodium-native "^2.3.0"
 
-stellar-sdk@^3.3.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/stellar-sdk/-/stellar-sdk-3.3.0.tgz#829fcf9be82dddfc153c35b066fe09c8d93ddea3"
-  integrity sha512-RCVjuI+SfAhExUOpKbn4i7aNvydRZaIQve25wYr5YTWIiL9ULsEY7puG92CNA7u7PLwo94lLwaHeRwRuMSVtSw==
+stellar-sdk@^8.2.3:
+  version "8.2.3"
+  resolved "https://registry.yarnpkg.com/stellar-sdk/-/stellar-sdk-8.2.3.tgz#2970211877937e487b4e1f88021200cf0ddf8603"
+  integrity sha512-RlrR6DD+706vgA1iVDXteU/x3bdqFDthf+4M3C19D/owmF0GCR/FoRQpnPqqRJ0C/rbbdZ6YjAyKO6Q0GSbDWw==
   dependencies:
     "@types/eventsource" "^1.1.2"
     "@types/node" ">= 8"
     "@types/randombytes" "^2.0.0"
-    "@types/urijs" "^1.19.2"
-    axios "^0.19.0"
+    "@types/urijs" "^1.19.6"
+    axios "0.21.1"
     bignumber.js "^4.0.0"
     detect-node "^2.0.4"
     es6-promise "^4.2.4"
     eventsource "^1.0.7"
     lodash "^4.17.11"
     randombytes "^2.1.0"
-    stellar-base "^2.1.2"
+    stellar-base "^5.2.1"
     toml "^2.3.0"
     tslib "^1.10.0"
     urijs "^1.19.1"
